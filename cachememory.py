@@ -1,5 +1,7 @@
 history = {}
 
+cache = ""
+
 def active(count):
     global cache
     if count-1 > 2 and history[count-1] == history[count-2]:
